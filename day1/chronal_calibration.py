@@ -1,4 +1,4 @@
-with open("input.txt") as f:
+with open("input1.txt") as f:
     lines = f.readlines()
 lines = [int(x.strip()) for x in lines]
 
