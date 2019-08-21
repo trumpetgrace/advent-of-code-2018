@@ -23,5 +23,6 @@ def common_letters(box_ids):
                 return common
 
 
-print(calculate_checksum(lines))
-print(common_letters(lines))
+if __name__ == "__main__":
+    print(calculate_checksum(lines))
+    print(common_letters(lines))

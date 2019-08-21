@@ -18,5 +18,6 @@ def repeated_frequency(freq):
             res_freq.add(f)
 
 
-print(resulting_frequency(lines))
-print(repeated_frequency(lines))
+if __name__ == "__main__":
+    print(resulting_frequency(lines))
+    print(repeated_frequency(lines))

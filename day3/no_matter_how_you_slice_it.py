@@ -46,5 +46,6 @@ def intact_claim(claims):
             return int(id)
 
 
-print(overlapping_claims(lines))
-print(intact_claim(lines))
+if __name__ == "__main__":
+    print(overlapping_claims(lines))
+    print(intact_claim(lines))

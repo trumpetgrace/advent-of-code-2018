@@ -57,5 +57,6 @@ def strategy_2(records):
     return id_most_common * most_common[0]
 
 
-print(strategy_1(lines))
-print(strategy_2(lines))
+if __name__ == "__main__":
+    print(strategy_1(lines))
+    print(strategy_2(lines))
